@@ -1,0 +1,21 @@
+# Logs
+logs
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+
+# vim tags archive
+tags
+
+
+.DS_Store
+
+# testing
+.nyc_output/
+coverage/
+.scannerwork
+
+dump.rdb
