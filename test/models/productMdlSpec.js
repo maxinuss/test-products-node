@@ -88,7 +88,7 @@ describe('Product Model', () => {
 
                 this.sandbox.stub(client, 'get').returns(mockChain);
                 const result = await product.getList();
-                expect(200).to.equal(result);
+                expect({ data: 200, options: {}, files: {} }).to.eql(result);
             });
         });
     });
