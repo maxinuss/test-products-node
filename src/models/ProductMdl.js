@@ -41,5 +41,5 @@ module.exports.delete = async (body, id) => {
 module.exports.getList = async () => {
   const result =  await request.get(`${API_PRODUCT_URL}/product`).send();
 
-  return result.body;
+  return { data: result.body, options: {}, files: {} };
 };
