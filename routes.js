@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const router = express.Router();
+const cors = require('cors');
 
 const ProductMdl = require('./src/models/ProductMdl');
 
@@ -66,6 +67,7 @@ router.get('/:modelName', async (req, res) => {
   res.json(result);
 });
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use('/api/v1', router);
 
