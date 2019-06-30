@@ -28,21 +28,25 @@ Postman collection: ``` https://www.getpostman.com/collections/be5a645872ff422b6
 
 Response:
 ```json
-[
-    {
-        "id": 1,
-        "name": "Arroz",
-        "price": 45.00,
-        "dollarPrice": 1.00
-    },
-    {
-          "id": 2,
-          "name": "Cereal",
-          "price": 45.00,
-          "dollarPrice": 1.00
-    },
-    ...
-]
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Arroz",
+            "price": 45.00,
+            "dollarPrice": 1.00
+        },
+        {
+              "id": 2,
+              "name": "Cereal",
+              "price": 45.00,
+              "dollarPrice": 1.00
+        },
+        ...
+    ],
+    "options": {},
+    "files": {}
+}
 ```
 
 ###### Add Product
