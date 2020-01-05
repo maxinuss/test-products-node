@@ -1,7 +1,7 @@
 # test-products-node
 
 ## Task BACK
-Make products CRUD.
+Layer between Frond end and API.
 
 #### Requirements
 In order to run this project you will need:
