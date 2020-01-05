@@ -1,7 +1,7 @@
 # test-products-node
 
 ## Task BACK
-Layer between Frond end and API.
+Layer between Frontend and API.
 
 #### Requirements
 In order to run this project you will need:
