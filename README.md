@@ -1,7 +1,7 @@
 # test-products-node
 
 ## Task BACK
-Realizar una app en node que sea intermediaria entre el front y las API's.
+Make products CRUD.
 
 #### Requirements
 In order to run this project you will need:
